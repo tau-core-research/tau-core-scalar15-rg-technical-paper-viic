@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "checks": 10,
+  "gauge_fermion_deficit": 1.7095594778600973,
+  "real_scalar_modes": 30,
+  "minimum_abs_portal_jet": 0.23871597334210778,
+  "baseline_with_existing_higgs_quartic": 2.187901449832972,
+  "verdict": "one active complex 15_H has sufficient raw source-scale bosonic capacity, but physical RG-improved breaking and portal selection remain open"
+}

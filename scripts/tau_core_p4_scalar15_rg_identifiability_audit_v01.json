@@ -1,0 +1,392 @@
+{
+  "audit": "P4-NU15RG-IDN1",
+  "status": "PASS",
+  "source_identified_inputs": {
+    "initial_g1_g2_g3_y_lambda": [
+      1.0,
+      1.0,
+      1.0,
+      0.9615522319,
+      0.5699021061911328
+    ],
+    "baseline_gauge_coefficients": [
+      1.4333333333333333,
+      -5.833333333333333,
+      -9.666666666666666
+    ],
+    "complete_scalar15_gauge_shift": [
+      1.1666666666666667,
+      1.1666666666666667,
+      1.1666666666666667
+    ],
+    "active_gauge_coefficients": [
+      2.6,
+      -4.666666666666666,
+      -8.5
+    ],
+    "scalar15_real_mode_count": 30
+  },
+  "unselected_full_rg_inputs": [
+    "portal running and boundary value",
+    "independent scalar self-couplings",
+    "type-II Yukawa matrix and cubic coupling",
+    "M_6, M_32, and M_3W component thresholds",
+    "SU(5)-breaking threshold matching"
+  ],
+  "controlled_envelope": {
+    "meaning": "The portal is held source-frozen and a common scalar-15 threshold is scanned. This is a reduced identifiability envelope, not the unselected full scalar-potential RGE.",
+    "cases": [
+      {
+        "kappa_frozen": 0.0,
+        "threshold_t": 0.0,
+        "threshold_mu_over_mu0": 1.0,
+        "end_t": -7.517964068505409,
+        "end_mu_over_mu0": 0.0005432374349479168,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5208642870415504,
+        "maximum_F": 0.7890016858107253,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9418202384321533,
+        "couplings_end": [
+          0.9380365768187642,
+          1.4997837403935845,
+          3.544907701811032,
+          2.282389803190591,
+          0.9418202384321533
+        ]
+      },
+      {
+        "kappa_frozen": 0.24,
+        "threshold_t": 0.0,
+        "threshold_mu_over_mu0": 1.0,
+        "end_t": -7.517963947941973,
+        "end_mu_over_mu0": 0.0005432375004424928,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5208642795873255,
+        "maximum_F": 0.7890016800433112,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9418202326497045,
+        "couplings_end": [
+          0.9380365838136989,
+          1.499783750267162,
+          3.5449077018110327,
+          2.2823898006177683,
+          0.9418202326497045
+        ]
+      },
+      {
+        "kappa_frozen": 0.4,
+        "threshold_t": 0.0,
+        "threshold_mu_over_mu0": 1.0,
+        "end_t": -7.517963855728451,
+        "end_mu_over_mu0": 0.0005432375505363383,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5208642785584234,
+        "maximum_F": 0.789001677451598,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9418202298284302,
+        "couplings_end": [
+          0.9380365891636059,
+          1.4997837578181727,
+          3.5449077018110318,
+          2.2823897986491586,
+          0.9418202298284302
+        ]
+      },
+      {
+        "kappa_frozen": 0.8,
+        "threshold_t": 0.0,
+        "threshold_mu_over_mu0": 1.0,
+        "end_t": -7.517963800780872,
+        "end_mu_over_mu0": 0.0005432375803859274,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5208642793090668,
+        "maximum_F": 0.7890016764376595,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9418202286144884,
+        "couplings_end": [
+          0.93803659235168,
+          1.4997837623184749,
+          3.5449077018110327,
+          2.2823897974769265,
+          0.9418202286144884
+        ]
+      },
+      {
+        "kappa_frozen": 1.2,
+        "threshold_t": 0.0,
+        "threshold_mu_over_mu0": 1.0,
+        "end_t": -7.517963791154807,
+        "end_mu_over_mu0": 0.0005432375856151673,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5208642790135838,
+        "maximum_F": 0.7890016760940091,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9418202282555622,
+        "couplings_end": [
+          0.9380365929101071,
+          1.4997837631065458,
+          3.54490770181103,
+          2.2823897972712395,
+          0.9418202282555622
+        ]
+      },
+      {
+        "kappa_frozen": 1.5,
+        "threshold_t": 0.0,
+        "threshold_mu_over_mu0": 1.0,
+        "end_t": -7.517963788288389,
+        "end_mu_over_mu0": 0.0005432375871723134,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.52086427883266,
+        "maximum_F": 0.7890016759558391,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9418202281169659,
+        "couplings_end": [
+          0.9380365930762548,
+          1.4997837633406454,
+          3.5449077018110313,
+          2.2823897972094986,
+          0.9418202281169659
+        ]
+      },
+      {
+        "kappa_frozen": 0.0,
+        "threshold_t": -2.0,
+        "threshold_mu_over_mu0": 0.1353352832366127,
+        "end_t": -7.7593426245693715,
+        "end_mu_over_mu0": 0.00042673701492921813,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5192029197489038,
+        "maximum_F": 0.7961103886296711,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9502304891948125,
+        "couplings_end": [
+          0.9243382897638128,
+          1.4803991093481697,
+          3.5449077018110327,
+          2.2898116627525837,
+          0.9502304891948125
+        ]
+      },
+      {
+        "kappa_frozen": 0.24,
+        "threshold_t": -2.0,
+        "threshold_mu_over_mu0": 0.1353352832366127,
+        "end_t": -7.759343144256162,
+        "end_mu_over_mu0": 0.0004267367931596861,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5040276844544124,
+        "maximum_F": 0.7905295922532369,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9453263319799333,
+        "couplings_end": [
+          0.9243382609143547,
+          1.4803990684188302,
+          3.5449077018110313,
+          2.2898116844530536,
+          0.9453263319799333
+        ]
+      },
+      {
+        "kappa_frozen": 0.4,
+        "threshold_t": -2.0,
+        "threshold_mu_over_mu0": 0.1353352832366127,
+        "end_t": -7.759343075134077,
+        "end_mu_over_mu0": 0.000426736822656624,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.47498778064571245,
+        "maximum_F": 0.780277241665699,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9363128179662898,
+        "couplings_end": [
+          0.924338264751334,
+          1.4803990738618826,
+          3.5449077018110313,
+          2.2898116815660385,
+          0.9363128179662898
+        ]
+      },
+      {
+        "kappa_frozen": 0.8,
+        "threshold_t": -2.0,
+        "threshold_mu_over_mu0": 0.1353352832366127,
+        "end_t": -7.759343084085105,
+        "end_mu_over_mu0": 0.0004267368188368906,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.31381529517742174,
+        "maximum_F": 0.7257309632599496,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.8882660308474475,
+        "couplings_end": [
+          0.9243382642545691,
+          1.4803990731574737,
+          3.5449077018110318,
+          2.2898116819402445,
+          0.8882660308474475
+        ]
+      },
+      {
+        "kappa_frozen": 1.2,
+        "threshold_t": -2.0,
+        "threshold_mu_over_mu0": 0.1353352832366127,
+        "end_t": -7.759343093200742,
+        "end_mu_over_mu0": 0.000426736814946913,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.03331435986193385,
+        "maximum_F": 0.6454875819879585,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.778378335850104,
+        "couplings_end": [
+          0.9243382637486046,
+          1.4803990724398595,
+          3.5449077018110313,
+          2.289811682321165,
+          0.778378335850104
+        ]
+      },
+      {
+        "kappa_frozen": 1.5,
+        "threshold_t": -2.0,
+        "threshold_mu_over_mu0": 0.1353352832366127,
+        "end_t": -7.759343091782582,
+        "end_mu_over_mu0": 0.000426736815552094,
+        "perturbative_boundary_reached": true,
+        "minimum_F": -0.26089942362498747,
+        "maximum_F": 0.6839579689021587,
+        "stationary_zero_detected": true,
+        "lambda_end": 0.5987603869968978,
+        "couplings_end": [
+          0.9243382638271531,
+          1.4803990725508096,
+          3.544907701811032,
+          2.289811682261318,
+          0.5987603869968978
+        ]
+      },
+      {
+        "kappa_frozen": 0.0,
+        "threshold_t": -5.0,
+        "threshold_mu_over_mu0": 0.006737946999085467,
+        "end_t": -8.121412102894043,
+        "end_mu_over_mu0": 0.00029710881586075003,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.5189479715534313,
+        "maximum_F": 0.8208099185191163,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9798229845479876,
+        "couplings_end": [
+          0.9048713691439996,
+          1.4526816586333369,
+          3.5449077018110327,
+          2.3149693893819263,
+          0.9798229845479876
+        ]
+      },
+      {
+        "kappa_frozen": 0.24,
+        "threshold_t": -5.0,
+        "threshold_mu_over_mu0": 0.006737946999085467,
+        "end_t": -8.121412028732642,
+        "end_mu_over_mu0": 0.00029710883789475675,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.48944825318432983,
+        "maximum_F": 0.8040749891492295,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9651857266786034,
+        "couplings_end": [
+          0.9048713730062665,
+          1.452681664152187,
+          3.54490770181103,
+          2.314969381229123,
+          0.9651857266786034
+        ]
+      },
+      {
+        "kappa_frozen": 0.4,
+        "threshold_t": -5.0,
+        "threshold_mu_over_mu0": 0.006737946999085467,
+        "end_t": -8.12141194521485,
+        "end_mu_over_mu0": 0.0002971088627086319,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.4243931357915771,
+        "maximum_F": 0.7725185978757664,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.9375459998061546,
+        "couplings_end": [
+          0.9048713773557675,
+          1.4526816703671288,
+          3.5449077018110327,
+          2.314969372047675,
+          0.9375459998061546
+        ]
+      },
+      {
+        "kappa_frozen": 0.8,
+        "threshold_t": -5.0,
+        "threshold_mu_over_mu0": 0.006737946999085467,
+        "end_t": -8.121412060472379,
+        "end_mu_over_mu0": 0.00029710882846460077,
+        "perturbative_boundary_reached": true,
+        "minimum_F": 0.07138592400010975,
+        "maximum_F": 0.6074921381220818,
+        "stationary_zero_detected": false,
+        "lambda_end": 0.7713433298078544,
+        "couplings_end": [
+          0.9048713713532653,
+          1.4526816617901381,
+          3.5449077018110318,
+          2.314969384718325,
+          0.7713433298078544
+        ]
+      },
+      {
+        "kappa_frozen": 1.2,
+        "threshold_t": -5.0,
+        "threshold_mu_over_mu0": 0.006737946999085467,
+        "end_t": -8.121412054580903,
+        "end_mu_over_mu0": 0.00029710883021501027,
+        "perturbative_boundary_reached": true,
+        "minimum_F": -0.6601650081069967,
+        "maximum_F": 0.6454875819879585,
+        "stationary_zero_detected": true,
+        "lambda_end": 0.1985268134062042,
+        "couplings_end": [
+          0.904871371660086,
+          1.452681662228548,
+          3.5449077018110295,
+          2.3149693840706482,
+          0.1985268134062042
+        ]
+      },
+      {
+        "kappa_frozen": 1.5,
+        "threshold_t": -5.0,
+        "threshold_mu_over_mu0": 0.006737946999085467,
+        "end_t": -8.12141205730181,
+        "end_mu_over_mu0": 0.00029710882940660446,
+        "perturbative_boundary_reached": true,
+        "minimum_F": -3.2349505103543166,
+        "maximum_F": 0.6839579689021587,
+        "stationary_zero_detected": true,
+        "lambda_end": -3.125717348784139,
+        "couplings_end": [
+          0.9048713715183323,
+          1.452681662025849,
+          3.5449077018110313,
+          2.3149693843696517,
+          -3.125717348784139
+        ]
+      }
+    ]
+  },
+  "checks": {
+    "full_15_gauge_shift_is_universal": true,
+    "relative_one_loop_gauge_running_unchanged_while_full_15_active": true,
+    "finite_envelope_completed": true,
+    "all_cases_numerically_finite": true,
+    "same_fixed_upstream_data_admit_distinct_rg_trajectories": true,
+    "no_unique_full_rg_prediction_without_missing_scalar_data": true
+  },
+  "claim_boundary": "The scalar-15 representation fixes a universal one-loop gauge shift, but the current Tau source packet does not define one full RG trajectory. Different admissible portal/threshold completions with identical frozen upstream data produce distinct flows. The envelope is diagnostic only and does not select a Coleman-Weinberg vacuum or a physical scalar spectrum."
+}

@@ -1,0 +1,44 @@
+{
+  "audit": "P4-NU15CLOSE-C1/N1",
+  "status": "PASS",
+  "class_relative_ownership": {
+    "seed": "pointed exterior V5 grammar plus typed symmetric edge e_HHDelta",
+    "base": "faithful positive Hermitian/Hodge realization with one common length",
+    "body": "nonzero Higgs lock and induced scalar-15 stationary response",
+    "sym2_rank": 15,
+    "induced_source_norm": 13.945935521929993,
+    "boundary": "recovery-complete P4/type-II class; not unrestricted Nature selection"
+  },
+  "absolute_scale": {
+    "exact_ratio": "M_*/E_P=1/sqrt(24*pi), equivalently M_*=Mbar_P/sqrt(3)",
+    "ratio_numeric": 0.11516471649044516,
+    "planck_energy_gev_2022_codata": 1.2208901282098643e+19,
+    "M_star_gev": 1.4060346548127227e+18,
+    "M_star_standard_uncertainty_gev_from_G": 15799799096677.436,
+    "boundary": "one cross-terminal Planck calibration; not an SI prediction independent of G"
+  },
+  "exact_rg_rule": {
+    "total_operator": "P_k=Gamma_k^(2)+gauge-fixing+ghost blocks on the full 4D x D_15 carrier",
+    "regulator": "R_k(P)=P/(exp(P/k^2)-1)",
+    "flow": "partial_t Gamma_k=1/2 STr[(Gamma_k^(2)+R_k)^(-1) partial_t R_k]",
+    "beta_projection": "beta^I=(G_O^(-1))^(IJ)<O_J,partial_t Gamma_k>",
+    "covariance_error": 3.1264164235997256e-15,
+    "block_additivity_error": 2.220446049250313e-16,
+    "boundary": "exact full functional flow; explicit component beta polynomials remain a reproducible evaluation task"
+  },
+  "checks": {
+    "canonical_sym2_seed_edge_has_rank_15": true,
+    "occupied_higgs_pair_has_nonzero_scalar15_source": true,
+    "pointed_higgs_lock_is_nonzero": true,
+    "induced_scalar15_stationary_branch_is_nonzero": true,
+    "common_length_scale_is_inverse_sqrt_24pi": true,
+    "calibrated_m_star_is_positive": true,
+    "spectral_regulator_is_gauge_covariant": true,
+    "spectral_flow_is_block_additive": true,
+    "low_modes_receive_k_squared_regulator": true,
+    "high_modes_decouple_relative_to_low_modes": true,
+    "radiatively_complete_projection_basis_is_full_rank": true,
+    "beta_projection_satisfies_normal_equations": true
+  },
+  "claim_boundary": "The recovery-complete P4/type-II class now fixes the minimal seed/base ownership packet, a common Planck-calibrated scale, and one exact gauge-covariant functional RG prescription. It does not prove that Nature selects the scalar-15 branch, predict G in SI units, or replace the explicit projection of the exact flow onto every component coupling."
+}

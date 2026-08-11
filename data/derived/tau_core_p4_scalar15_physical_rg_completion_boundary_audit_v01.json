@@ -1,0 +1,31 @@
+{
+  "audit": "P4-NU15PHYRG-N1/C1",
+  "status": "PASS",
+  "proved_non_entailments": [
+    "one common action unit does not fix the cubic/quartic moment ratio",
+    "an unpointed polynomial spectral action does not force nonzero occupation",
+    "dimensionless source geometry does not fix an absolute SI source scale",
+    "a full beta-vector representation is not unique without a renormalization prescription"
+  ],
+  "minimal_completion_packet": {
+    "moment_character": "a source-owned spectral moment functional fixing a2:a3:a4 and tensor-square weight",
+    "pointed_occupation": "a nonzero source load/projector on the D_15 orbit",
+    "scale_calibration": "one physical calibration mapping the parent gap to a 4D mass unit",
+    "renormalization_map": "field content, gauge fixing, subtraction scheme, matching and thresholds"
+  },
+  "symbolic_witnesses": {
+    "moment_shape_invariant": "a3**2/(a2*a4)",
+    "zero_gradient_unloaded": "0",
+    "zero_gradient_loaded": "-load",
+    "beta_after_redefinition_in_old_coordinate": "2*c*g**3 + g**2"
+  },
+  "checks": {
+    "zero_is_stationary_without_pointed_load": true,
+    "nonzero_load_removes_zero_stationarity": true,
+    "common_unit_does_not_fix_moment_shape_ratio": true,
+    "absolute_scale_has_a_rescaling_family": true,
+    "beta_coordinate_changes_under_finite_redefinition": true,
+    "four_missing_data_classes_are_logically_distinct": true
+  },
+  "claim_boundary": "The audit closes the request at the current source level by proving four independent non-entailments and the minimal data packet that would remove them. It does not claim that the physical base-seed parent occupies that packet or that an absolute scalar-15 RG trajectory has been predicted."
+}

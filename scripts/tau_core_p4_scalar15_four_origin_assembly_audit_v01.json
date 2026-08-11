@@ -1,0 +1,43 @@
+{
+  "audit": "P4-NU15RGORIG-C1/N1",
+  "status": "PASS",
+  "four_origins": {
+    "spectral_weighting": {
+      "candidate": "oriented primitive exponential response character",
+      "moments_a2_a3_a4": [
+        "1/2",
+        "1/6",
+        "1/24"
+      ],
+      "open": "charged-sector transport and tensor-copy character ownership"
+    },
+    "nonzero_occupation": {
+      "chain": "pointed seed orientation -> Higgs lock -> HHDelta induction",
+      "h_squared_star": "k_h/(2*lambda_h)",
+      "delta_star": "k_h*mu_delta/(2*K_delta*lambda_h)",
+      "open": "physical occupation of the pointed oriented cycle"
+    },
+    "absolute_scale": {
+      "origin": "positive physical base spectral gap M_*",
+      "law": "D_phys=M_* D_hat",
+      "open": "one metrological calibration for the SI value of M_*"
+    },
+    "renormalization": {
+      "origin": "observer-resolution descent by nested spectral projectors P_k(D_15)",
+      "law": "Gamma_k=Desc_{P_k} Gamma; beta=k d Gamma_k/dk",
+      "covariance_error": 8.896236990113052e-16,
+      "nesting_error": 4.442455688132482e-16,
+      "open": "full interacting functional trace and chosen physical observer-resolution family"
+    }
+  },
+  "checks": {
+    "primitive_character_moments_are_fixed": true,
+    "occupied_higgs_branch_is_nonzero": true,
+    "induced_scalar15_branch_is_nonzero": true,
+    "spectral_projector_is_gauge_covariant": true,
+    "spectral_cutoffs_are_nested": true,
+    "thresholds_are_intrinsic_eigenvalue_crossings": true,
+    "one_base_gap_converts_dimensionless_operator_to_mass_dimension": true
+  },
+  "claim_boundary": "The audit identifies a common conditional origin for all four missing data classes and proves the algebraic occupation and spectral-projector properties. It does not prove that the physical base-seed parent owns the oriented charged character, fixes the SI gap, or supplies the full interacting beta functions."
+}

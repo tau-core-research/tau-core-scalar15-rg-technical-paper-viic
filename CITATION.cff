@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "A Scalar-15 Source Preimage and Its Renormalization Boundary"
+message: "Please cite the archived release of this work."
+type: article
+authors:
+  - family-names: Olcsak
+    given-names: Jozsef
+date-released: 2026-08-10
+license: MIT

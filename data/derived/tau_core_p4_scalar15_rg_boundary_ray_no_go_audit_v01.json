@@ -1,0 +1,63 @@
+{
+  "audit": "P4-NU15RGRAY-N1/C1",
+  "status": "PASS",
+  "coefficient_order": [
+    "kappa_1",
+    "kappa_2",
+    "a_Sigma",
+    "lambda_41",
+    "lambda_42"
+  ],
+  "equal_common_unit_counterfamily": {
+    "ray_a": [
+      0.4472135954999579,
+      0.4472135954999579,
+      0.4472135954999579,
+      0.4472135954999579,
+      0.4472135954999579
+    ],
+    "ray_b": [
+      0.7071067811865475,
+      0.35355339059327373,
+      0.35355339059327373,
+      0.35355339059327373,
+      0.35355339059327373
+    ],
+    "stacked_rank": 2
+  },
+  "remaining_projective_dimension": 4,
+  "minimal_selector_form": "L_src(c)=1/2 c^T G_I c-j_I^T c, c_*=G_I^{-1}j_I",
+  "example_selector": {
+    "G_I_diagonal": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "j_I": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "c_selected": [
+      1.0,
+      0.5,
+      0.3333333333333333,
+      0.25,
+      0.2
+    ],
+    "stationarity_residual": 0.0
+  },
+  "checks": {
+    "support_dimension_is_five": true,
+    "common_unit_normalizes_first_ray": true,
+    "common_unit_normalizes_second_ray": true,
+    "equal_unit_rays_are_not_proportional": true,
+    "one_common_scale_leaves_four_projective_ratios": true,
+    "strictly_convex_metric_load_selector_is_unique": true
+  },
+  "claim_boundary": "The common action unit fixes at most the overall norm of the five-component boundary vector. It does not select its four projective ratios because the five invariant directions are not related by the declared symmetry. A unique physical RG path requires a source-owned positive metric G_I and nonzero load j_I (or an equivalent spectral embedding) on invariant-support space."
+}

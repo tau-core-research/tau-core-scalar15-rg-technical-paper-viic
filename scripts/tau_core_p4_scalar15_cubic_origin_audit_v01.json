@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "checks": 14,
+  "matching_row": "delta*sqrt(k) - h2*mu/sqrt(k)",
+  "expanded_action": "delta**2*k/2 - delta*h2*mu + h2**2*mu**2/(2*k)",
+  "stationary_solution": "h2*mu/k",
+  "conditional_origin": "typed symmetric seed edge plus faithful positive base realization",
+  "remaining_boundary": "physical ownership of the charged symmetric seed edge is not entailed by the current parent packet"
+}

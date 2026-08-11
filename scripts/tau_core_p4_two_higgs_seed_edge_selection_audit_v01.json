@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "checks": 14,
+  "seed_object": "unordered arity-two typed incidence (V_H,V_H;S_15)/S_2",
+  "realized_evaluation": "H -> H odot H in Sym^2(V_H)",
+  "uv_counterfamily": {
+    "type_I": {
+      "weinberg_operator": true,
+      "scalar_15_edge": false,
+      "positive_new_boson": false
+    },
+    "type_II": {
+      "weinberg_operator": true,
+      "scalar_15_edge": true,
+      "positive_new_boson": true
+    },
+    "type_III": {
+      "weinberg_operator": true,
+      "scalar_15_edge": false,
+      "positive_new_boson": false
+    }
+  },
+  "conditional_selection": "Majorana terminal plus positive Higgs-dependent boson plus one-carrier source irredundancy selects the type-II seed edge",
+  "remaining_boundary": "the current parent does not establish Nature-level occupation of the positive-boson/type-II branch"
+}

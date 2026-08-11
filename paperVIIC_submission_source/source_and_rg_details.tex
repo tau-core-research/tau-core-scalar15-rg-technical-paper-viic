@@ -1,0 +1,191 @@
+\section{Type does not imply occupation}
+
+Let $V\simeq\mathbb C^5$ be the Higgs carrier and
+$\Delta\in\operatorname{Sym}^2V$ the scalar-15 coordinate. After the body and
+an occupied Higgs coordinate $H$ are frozen, the first local analytic action
+has the form
+\begin{equation}
+\begin{split}
+\Gamma_{15}[\Delta;H]={}&m_{\rm eff}^2(H)\lVert\Delta\rVert^2
++\lambda_1\lVert\Delta\rVert^4
++\lambda_2\operatorname{Tr}(\Delta^\dagger\Delta\Delta^\dagger\Delta)\\
+&-2\operatorname{Re}\langle J_{15}(H,\psi),\Delta\rangle+\cdots,
+\end{split}
+\label{eq:localaction}
+\end{equation}
+where $m_{\rm eff}^2=M_\Delta^2+\kappa_{H\Delta}H^\dagger H$. An unbroken
+$SU(5)$-covariant source obeys
+$\operatorname{Hom}_{SU(5)}(15_H,\mathbf1)=0$, so it cannot provide a
+constant nonsinglet load. A portal changes the Hessian but its first variation
+vanishes at $\Delta=0$. If $m_{\rm eff}^2>0$, the quartic form is nonnegative
+and no dual source or zero-excluding topology is present, the zero section is
+the unique local minimum. Hence
+\begin{equation}
+\boxed{B_\tau^{\rm phys}+s_U+\text{current P3 law}
+\not\Longrightarrow\Delta_*\ne0.}
+\label{eq:occupationnogo}
+\end{equation}
+
+\begin{proposition}[Induced scalar-15 occupation]
+If $H\ne0$, $K_{15}>0$ and the source owns a nonzero covariant incidence
+$\mu_\Delta\langle(H\odot H)^\flat,\Delta\rangle+\mathrm{h.c.}$, then the
+unique small-source branch satisfies
+\begin{equation}
+\boxed{\Delta_*=K_{15}^{-1}\bar\mu_\Delta(H\odot H)^\flat
++O(\lVert\mu_\Delta H\odot H\rVert^3).}
+\label{eq:inducedoccupation}
+\end{equation}
+\end{proposition}
+On the electroweak triplet component this gives
+$v_\Delta\simeq\mu_\Delta v_H^2/M_{\Delta,\rm eff}^2$ and
+$m_\nu\simeq Y_\Delta v_\Delta$. This proves neither $\mu_\Delta\ne0$ nor the
+Yukawa map $Y_\Delta$.
+
+\section{Typed seed edge and positive base realization}
+
+The seed does not contain two Higgs particles. It contains an unordered
+arity-two typed incidence
+\begin{equation}
+e_{HH\Delta}=(V_H,V_H;S_{15})/S_2,
+\qquad H\mapsto H\odot H.
+\label{eq:typededge}
+\end{equation}
+Let the enriched base realize it by an equivariant map
+$C_{15}:\operatorname{Sym}^2V\to15_H$. Since both sides are the same
+irreducible representation, Schur's lemma gives
+$C_{15}=\mu_\Delta I_{15}$. For $K_{15}>0$, define
+\begin{equation}
+R_{15}=K_{15}^{1/2}\Delta-K_{15}^{-1/2}C_{15}(H\odot H).
+\label{eq:matchingrow}
+\end{equation}
+Its once-counted positive action is
+\begin{equation}
+\begin{split}
+\frac12\lVert R_{15}\rVert^2={}&
+\frac12\langle\Delta,K_{15}\Delta\rangle
+-\operatorname{Re}\langle C_{15}(H\odot H),\Delta\rangle\\
+&+\frac12\langle C_{15}(H\odot H),
+K_{15}^{-1}C_{15}(H\odot H)\rangle.
+\end{split}
+\label{eq:matchingaction}
+\end{equation}
+The middle term is the cubic incidence and the final term is its required
+source-neutral completion, not a separately fitted Higgs interaction.
+Variation gives $K_{15}\Delta_*=C_{15}(H\odot H)$.
+
+Inside the frozen class requiring a renormalizable nonsinglet Majorana
+mediator, one positive Higgs-dependent bosonic repair mode and one-carrier
+source irredundancy, $15_H$ and Eq.~\eqref{eq:typededge} are the minimal common
+carrier. Type-I and type-III fermionic mediators fail the bosonic one-carrier
+requirement but remain alternatives outside this class. Neutrino mass alone
+therefore does not select the branch.
+
+\section{The cubic edge is not the complete RG packet}
+
+The matching action contains stiffness, cubic incidence and a neutral $H^4$
+completion, but no $H^2\Delta^2$ portal and no breaking descriptor that splits
+the unified components. The weakest field-dependent stiffness is
+\begin{equation}
+K_{15}(H,\Sigma)=K_0+\kappa_{H\Delta}(H^\dagger H)I_{15}
++a_\Sigma\rho_{15}(\Sigma)+\cdots.
+\end{equation}
+Portal and breaking coefficients can vary while the cubic edge remains fixed;
+this is an exact source-rank obstruction.
+
+Assume local $SU(5)$ covariance, power-counting renormalizability, radiative
+closure and no additional forbidding symmetry. A class-minimal support is
+\begin{equation}
+\begin{aligned}
+I_{p1}&=(H^\dagger H)\operatorname{Tr}(\Delta\Delta^\dagger),&
+I_{p2}&=H^\dagger\Delta\Delta^\dagger H,\\
+I_b&=\langle\Delta,\rho_{15}(\Sigma)\Delta\rangle,&
+I_{41}&=[\operatorname{Tr}(\Delta\Delta^\dagger)]^2,\\
+&&I_{42}&=\operatorname{Tr}[(\Delta\Delta^\dagger)^2].
+\end{aligned}
+\label{eq:invariantsupport}
+\end{equation}
+This fixes operator directions, not the boundary vector
+$c_I=(\kappa_1,\kappa_2,a_\Sigma,\lambda_{41},\lambda_{42})$. A common unit
+cannot remove the remaining projective ratios. The finite selector
+\begin{equation}
+\mathcal L_I(c)=\tfrac12\langle c,G_Ic\rangle-\langle j_I,c\rangle,
+\qquad c_I^*=G_I^{-1}j_I,
+\end{equation}
+is complete only after $G_I$ and $j_I$ are source-derived.
+
+\section{Spectral-tensor boundary ray}
+
+On $\mathcal H_{15}=\mathbb C\oplus V\oplus\bar V$, define
+\begin{equation}
+\mathcal D_{15}(H,\Delta,\Sigma)=
+\begin{pmatrix}
+0&H^\dagger&H^T\\ H&\Sigma&\Delta\\
+H^*&\Delta^\dagger&\Sigma^T
+\end{pmatrix}.
+\label{eq:spectraloperator}
+\end{equation}
+It transforms by unitary conjugation under $SU(5)$. Its cubic moment contains
+the breaking and charged incidences in one word,
+\begin{equation}
+\operatorname{Tr}\mathcal D_{15}^3
+=6I_{H\Sigma}+6I_{HH\Delta}+3I_b+2I_{\Sigma3}.
+\end{equation}
+The canonical quartic completion
+$\mathcal Q_4=\operatorname{Tr}\mathcal D_{15}^4
++(\operatorname{Tr}\mathcal D_{15}^2)^2$ gives at $\Sigma=0$
+\begin{equation}
+\boxed{\mathcal Q_4=24I_{H4}+16I_{p1}+8I_{p2}+4I_{41}+2I_{42}.}
+\label{eq:spectralray}
+\end{equation}
+All directions in Eq.~\eqref{eq:invariantsupport} are present, and the portal
+and scalar-quartic rays are each $2{:}1$. Equal weighting of single-trace and
+tensor-square terms remains a completion premise, not a narrow-parent theorem.
+
+\section{Common scale and metrological boundary}
+
+The inherited common-length completion gives
+\begin{equation}
+\ell_H=\sqrt{48\pi}\,\ell_P,
+\qquad
+\boxed{M_*=\frac{\sqrt2\hbar c}{\ell_H}
+=\frac{E_P}{\sqrt{24\pi}}
+=\frac{\overline M_Pc^2}{\sqrt3}.}
+\label{eq:commonscale}
+\end{equation}
+Using 2022 CODATA values \cite{CODATA2022} yields
+$M_*=1.406035(16)\times10^{18}\,\mathrm{GeV}$. The Tau-specific statement is
+the dimensionless ratio and absence of an independent scalar-15 length. The SI
+number is a one-anchor calibration, not a prediction of $G$, $\hbar$ or $c$.
+
+\section{Exact functional flow and its evaluation boundary}
+
+Let $P$ be the positive background-covariant Laplace-type operator including
+declared gauge-fixing and ghost blocks. The smooth spectral regulator
+$R_k(P)=P/[\exp(P/k^2)-1]$ enters the exact effective-average-action flow
+\cite{Wetterich1993}
+\begin{equation}
+\boxed{\partial_t\Gamma_k=\frac12\operatorname{STr}
+[(\Gamma_k^{(2)}+R_k)^{-1}\partial_tR_k],\qquad t=\log k.}
+\label{eq:wetterich}
+\end{equation}
+Gauge sectors must also satisfy the regulator-modified Slavnov--Taylor/BV
+identity, whose insertion vanishes as $k\to0$. For a radiatively and
+BRST-complete independent basis $\{\mathcal O_I\}$,
+\begin{equation}
+\boxed{\beta^I=(G^{-1})^{IJ}
+\langle\mathcal O_J,\partial_t\Gamma_k\rangle,
+\quad G_{IJ}=\langle\mathcal O_I,\mathcal O_J\rangle.}
+\label{eq:betaprojection}
+\end{equation}
+These equations define an exact functional evolution and coordinate
+projection after field content, scheme and matching are declared. They are
+standard QFT machinery, not a Tau derivation of the Wetterich equation, and do
+not evaluate the full component beta polynomials. Residual regulator
+dependence in a truncation is an uncertainty diagnostic.
+
+For one active complex $15_H$, representation theory fixes
+$\Delta b^{15_H}=(7/6,7/6,7/6)$. This changes common running but not relative
+one-loop gauge slopes. A unique trajectory still requires portals, scalar
+quartics, Yukawa/cubic data, component thresholds and breaking-scale matching.
+Equal-upstream choices of undetermined data can produce different
+stationarity verdicts, so a chosen trajectory is not a Tau prediction.

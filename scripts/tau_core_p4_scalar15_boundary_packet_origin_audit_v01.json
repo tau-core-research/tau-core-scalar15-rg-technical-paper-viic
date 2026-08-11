@@ -1,0 +1,32 @@
+{
+  "audit": "P4-NU15PACK-N1/C1",
+  "status": "PASS",
+  "matching_row_action": "K0*delta**2/2 - delta*h**2*mu + h**4*mu**2/(2*K0)",
+  "derived_from_single_HHDelta_edge": [
+    "scalar-15 quadratic stiffness",
+    "HHDelta cubic incidence",
+    "source-neutral Higgs quartic completion mu^2 h^4/(2 K0)"
+  ],
+  "not_derived_from_single_HHDelta_edge": [
+    "Higgs--scalar15 portal kappa h^2 delta^2/2",
+    "SU(5)-breaking component splitting a_sigma sigma t_r delta^2/2",
+    "independent scalar-15 quartic invariants",
+    "type-II Yukawa boundary data"
+  ],
+  "minimal_typed_enrichment": [
+    "norm edge (V_H^* tensor V_H) tensor (15_H^* tensor 15_H) -> 1",
+    "breaking edge 15_H^* tensor 24_B tensor 15_H -> 1",
+    "independent invariant edges spanning Quartic(15_H)"
+  ],
+  "checks": {
+    "one_row_expansion_exact": true,
+    "one_row_contains_scalar_stiffness": true,
+    "one_row_contains_cubic": true,
+    "one_row_contains_required_higgs_quartic_completion": true,
+    "one_row_contains_no_higgs_scalar15_portal": true,
+    "enriched_stiffness_generates_portal": true,
+    "adjoint_background_generates_component_split": true,
+    "portal_and_split_coefficients_are_independent_of_cubic_mu": true
+  },
+  "claim_boundary": "The positive HHDelta matching row fixes its own cubic and neutral quartic completion, but cannot select the portal, component thresholds, or scalar self-couplings. Those require separately typed seed/base incidences. This is a source-rank no-go, not a rejection of an enriched scalar-15 completion."
+}

@@ -1,0 +1,45 @@
+{
+  "audit": "P4-NU15SPEC-C1/N1",
+  "status": "PASS",
+  "carrier": "C direct-sum C^5 direct-sum conjugate(C^5)",
+  "cubic_basis_order": [
+    "Hdag Sigma H",
+    "Re(Hdag Delta H*)",
+    "Delta-adjoint breaking",
+    "Tr Sigma^3"
+  ],
+  "cubic_coefficients": [
+    5.9999999999999964,
+    6.000000000000011,
+    3.000000000000005,
+    2.000000000000001
+  ],
+  "quartic_basis_order": [
+    "(Hdag H)^2",
+    "portal_1",
+    "portal_2",
+    "quartic_1",
+    "quartic_2"
+  ],
+  "quartic_coefficients": [
+    24.000000000000018,
+    15.999999999999993,
+    8.000000000000025,
+    4.0,
+    2.0000000000000018
+  ],
+  "max_covariance_error": 6.753223014464258e-16,
+  "relative_cubic_fit_error": 1.5211415854065192e-15,
+  "relative_quartic_fit_error": 3.1759590286890895e-16,
+  "checks": {
+    "operator_is_gauge_covariant": true,
+    "cubic_trace_identity_is_exact": true,
+    "cubic_coefficients_match_6_6_3_2": true,
+    "spectral_tensor_quartic_identity_is_exact": true,
+    "quartic_coefficients_match_24_16_8_4_2": true,
+    "both_portals_are_nonzero": true,
+    "both_scalar15_quartics_are_nonzero": true,
+    "breaking_to_cubic_ratio_is_one_half": true
+  },
+  "claim_boundary": "The declared spectral-tensor completion selects a nonzero scalar-15 boundary ray and fixed relative coefficients. Its occupation, the relative weights of the cubic and quartic spectral moments, the source scale, and the full beta functions are not yet derived from the physical base-seed parent."
+}

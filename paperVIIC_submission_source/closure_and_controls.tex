@@ -1,0 +1,196 @@
+\section{Four data classes that must not be conflated}
+\label{sec:fourclasses}
+
+A representation label and one cubic incidence do not define a physical RG
+trajectory.  The finite obstruction can be stated without a parameter scan.
+For a radial spectral potential
+\begin{equation}
+ V(x)=a_2x^2+a_3x^3+a_4x^4,
+ \label{eq:radialpotential}
+\end{equation}
+four logically different data are required.
+
+\begin{enumerate}[label=(\roman*)]
+\item A \emph{moment character} fixes ratios such as
+  $a_3^2/(a_2a_4)$ and the relative weight of single-trace and tensor-square
+  invariants.  A common overall action unit cannot fix these ratios.
+\item \emph{Pointed occupation} excludes the zero section.  Every unpointed
+  polynomial of the form \eqref{eq:radialpotential} has $V'(0)=0$; covariance
+  and positivity alone therefore do not force a nonzero occupied branch.
+\item A \emph{physical scale} maps one dimensionless parent gap to a measured
+  mass unit.  Rescaling all parent gaps preserves the dimensionless packet.
+\item A \emph{renormalization map} specifies fields, gauge fixing, ghosts,
+  scheme, thresholds and matching.  Finite coupling redefinitions change the
+  coordinate representation of a beta vector even when observables agree.
+\end{enumerate}
+
+This separation prevents four common overclaims: normalization is not a
+moment selector; spontaneous occupation is not implied by representation
+content; a dimensionless scale ratio is not an SI prediction; and an exact
+functional equation is not an evaluated component flow.
+
+\begin{proposition}[Finite four-class obstruction]
+The current scalar-15 edge, common unit and invariant support do not by
+themselves determine a unique physical RG initial-value problem.
+\end{proposition}
+\begin{proof}
+Multiplication by a common unit leaves $a_3^2/(a_2a_4)$ invariant.  Equation
+\eqref{eq:radialpotential} has zero first derivative at the origin.  A common
+rescaling of all dimensionful gaps leaves every normalized source relation
+unchanged.  Finally, under $g'=g+cg^2$ a coordinate beta function transforms
+as $\beta_{g'}=(1+2cg)\beta_g$.  These four independent transformations leave
+the previously reconstructed packet intact while changing respectively its
+moment shape, occupation verdict, SI scale or flow coordinates.
+\end{proof}
+
+\section{Conditional common origin of the four classes}
+\label{sec:commonorigin}
+
+The four classes need not be four unrelated additions.  One conditional
+source architecture can own all four, provided its transport to the
+scalar-15 operator is proved.
+
+First, an oriented primitive response character supplies the moment sequence
+\begin{equation}
+ e^x=1+x+\frac{x^2}{2}+\frac{x^3}{6}+\frac{x^4}{24}+\cdots .
+ \label{eq:momentcharacter}
+\end{equation}
+Transport of this one character to $\mathcal D_{15}$ fixes relative spectral
+moments; its two-copy multiplicative character supplies the tensor-square
+sector.  Reversal averaging cannot be imposed before the odd cubic has
+selected an oriented branch, because doing so would delete the very incidence
+that induces the scalar response.
+
+Second, a pointed seed orientation may activate an already selected Higgs
+body coordinate,
+\begin{equation}
+ V_H(h)=-k_Hh^2+\lambda_Hh^4,
+ \qquad h_*^2=\frac{k_H}{2\lambda_H}>0.
+\end{equation}
+The positive matching row of Eq.~\eqref{eq:matchingrow} then yields
+\begin{equation}
+ \boxed{\Delta_*=\frac{\mu_\Delta}{K_\Delta}h_*^2
+ =\frac{k_H\mu_\Delta}{2K_\Delta\lambda_H}\ne0.}
+ \label{eq:pointedoccupation}
+\end{equation}
+This is not an external gauge-charged linear source: the seed selects an
+oriented orbit, the body occupies the Higgs coordinate, and the covariant
+two-Higgs edge induces the scalar coordinate.
+
+Third, write the physical operator as
+\begin{equation}
+ \mathcal D_{15}^{\rm phys}=M_*\widehat{\mathcal D}_{15}.
+ \label{eq:physicalgap}
+\end{equation}
+This identifies where the common scale lives while retaining the metrological
+boundary stated in Section~\ref{sec:scalar15handoff}.
+
+Fourth, for observer resolution $k$ the covariant spectral family
+\begin{equation}
+ P_k(\mathcal D_{15})=\mathbf 1_{[-k,k]}(\mathcal D_{15}),
+ \qquad
+ \Gamma_k=\operatorname{Desc}_{P_k}\Gamma
+ \label{eq:spectraldescent}
+\end{equation}
+is nested and gauge covariant:
+$P_{k_1}P_{k_2}=P_{k_1}$ for $k_1\le k_2$, and
+$P_k(W\mathcal DW^\dagger)=WP_k(\mathcal D)W^\dagger$.
+Eigenvalue crossings therefore define source-owned threshold events rather
+than thresholds inserted after a fit.  The smooth regulator used later is a
+computational realization of the same resolution logic, not a new physical
+coupling.
+
+\begin{theorem}[Conditional four-origin assembly]
+If the physical base--seed completion owns the oriented character transport,
+the pointed Higgs cycle, one positive common gap and the covariant spectral
+descent, then moment character, nonzero scalar occupation, relative scale and
+renormalization prescription descend from one source architecture.
+\end{theorem}
+\begin{proof}
+Equations \eqref{eq:momentcharacter}, \eqref{eq:pointedoccupation},
+\eqref{eq:physicalgap} and \eqref{eq:spectraldescent} supply the four data
+classes of Section~\ref{sec:fourclasses}.  Each construction is covariant on
+its declared carrier, and none introduces a terminal-specific gain.  The
+conclusion is conditional because occupation of this complete source packet
+by the unrestricted physical parent is not derived.
+\end{proof}
+
+\section{Bosonic capacity is a viability test, not selection}
+
+For active field-dependent modes $m_j^2=k_jr^2$, the one-loop logarithmic
+weight is
+\begin{equation}
+ 64\pi^2 B=\sum_j(-1)^{F_j}n_jk_j^2.
+\end{equation}
+At the frozen source point used by the audit, $g=1$ and
+$y_u=0.9615522319$, the gauge--fermion deficit is
+\begin{equation}
+ D_{GF}=3y_u^4-\frac{171}{200}=1.70955948.
+\end{equation}
+A complex scalar $15_H$ has thirty real modes.  If all active modes share the
+portal jet $\kappa_{H\Delta}$, their positive contribution is
+\begin{equation}
+ \Delta(64\pi^2B)_{15}=30\kappa_{H\Delta}^2,
+\end{equation}
+so one copy can reverse the sign whenever
+\begin{equation}
+ \boxed{|\kappa_{H\Delta}|>\sqrt{D_{GF}/30}=0.238716.}
+ \label{eq:capacitybound}
+\end{equation}
+Equation~\eqref{eq:capacitybound} establishes raw source-scale capacity.  It
+does not select the portal, prove a Coleman--Weinberg vacuum or remove
+decoupling and threshold effects.
+
+\section{Equal-upstream RG counterfamily}
+
+The representation fixes the contribution of one active complex $15_H$ to
+the GUT-normalized one-loop gauge coefficients,
+\begin{equation}
+ \boxed{\Delta b^{15_H}=\left(\frac76,\frac76,\frac76\right).}
+ \label{eq:gaugeshift}
+\end{equation}
+Thus a degenerate complete multiplet changes common running but not relative
+one-loop gauge slopes.  A physical trajectory additionally requires portals,
+independent scalar quartics, Yukawa and cubic data, component thresholds and
+breaking-scale matching.
+
+A controlled equal-upstream audit makes the missing information visible.  At
+one common active interval, two admissible portal choices give
+\begin{center}
+\begin{tabular}{@{}ccc@{}}
+\toprule
+$\kappa_{H\Delta}$ & $\min(\lambda+\beta_\lambda/4)$ & zero present?\\
+\midrule
+$0.80$ & $+0.071386$ & no\\
+$1.20$ & $-0.660165$ & yes\\
+\bottomrule
+\end{tabular}
+\end{center}
+while all already frozen upstream data are held fixed.  This is a finite
+non-identifiability witness: choosing either trajectory without an additional
+source law would be a fit, not a Tau prediction.
+
+\section{Exact finite stopping point}
+
+The scalar branch is therefore closed at three different levels:
+\begin{center}\small
+\begin{tabularx}{0.96\linewidth}{@{}p{0.30\linewidth}p{0.28\linewidth}X@{}}
+\toprule
+Question & Result & Remaining boundary\\
+\midrule
+Source preimage & unique in the declared recovery-complete type-II class &
+unrestricted branch occupation\\
+Relative mass scale & $M_*/E_P=1/\sqrt{24\pi}$ & one SI calibration\\
+Functional evolution & exact covariant flow plus projection & component
+evaluation and truncation error\\
+Phenomenological trajectory & not identified by the current source & portal,
+quartic, threshold and matching data\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+This is a finite stop rather than a request for more unconstrained
+enrichment.  The next admissible advance is either a deeper base--seed law
+that owns the complete four-origin packet, or external evidence selecting the
+scalar-15/type-II branch.  Further normalization or parameter scanning at the
+same source level cannot establish either statement.

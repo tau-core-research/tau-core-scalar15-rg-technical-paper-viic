@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "checks": 16,
+  "potential": "-2*j*r + lam*r**4 + m2*r**2",
+  "stationarity_equation": "-2*j + 4*lam*r**3 + 2*m2*r",
+  "origin_hessian": "2*m2",
+  "activation_routes": [
+    "nonzero dual source in 15_H star",
+    "source-selected negative effective quadratic coefficient",
+    "independent boundary or topological exclusion of the zero section"
+  ],
+  "shortest_conditional_positive_route": "occupied H in V plus nonzero source-owned cubic incidence mu_Delta H H Delta dagger",
+  "verdict": "the current base-seed/P3 law selects the scalar type conditionally but does not force nonzero 15_H occupation"
+}
