@@ -26,6 +26,13 @@ positive stiffness alone does not occupy it; the charged source edge supplies
 the class-relative load, while deleting that edge returns the zero-section
 control.
 
+## Observer Co-Descent
+
+The scalar/RG branch is evaluated only after operational observer support has
+formed from occupied carrier support, regular local rank four, stable
+quantization and a nonzero record/effect. It is a downstream terminal
+specialization, not an observer-producing channel.
+
 ## AI Startup
 
 Read `.tau-core-kb/COMPACT_CORE.md`, then generate the focused routing pack.
