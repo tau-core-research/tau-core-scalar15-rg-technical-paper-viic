@@ -26,6 +26,19 @@ positive stiffness alone does not occupy it; the charged source edge supplies
 the class-relative load, while deleting that edge returns the zero-section
 control.
 
+Conditionally on Paper IV's enriched one-source premise, this branch is read
+on the seed-generated physical quotient. Inert ambient summands do not change
+the spectrum or RG flow; a non-null same-complete-seed-key difference is a
+second-source falsifier. The scalar/RG calculation itself does not prove that
+premise.
+
+## Inherited Minimal Formation Basis
+
+The scalar-15 branch is downstream of a stable selected nonneutral body. Its
+base is the physically anchored zero-source response structure and its seed is
+a response-distinct base-relative source class. Terminal branch selection
+cannot supply that anchor or prove physical seed occupation.
+
 ## Observer Co-Descent
 
 The scalar/RG branch is evaluated only after operational observer support has
