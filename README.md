@@ -54,3 +54,9 @@ Read `.tau-core-kb/COMPACT_CORE.md`, then generate the focused routing pack.
 python .tau-core-kb/scripts/tc_kb.py status
 python .tau-core-kb/scripts/tc_kb.py pack big_picture
 ```
+
+## Unified Selection Update (2026-08-27)
+
+`PD-USS1` and `PD-USS-N1` do not select the scalar-15 source load or force a
+nonzero RG/standard-orthogonal signal. The `0/31` P3 pair census is therefore
+not evidence for this branch and changes none of its conditional RG results.
