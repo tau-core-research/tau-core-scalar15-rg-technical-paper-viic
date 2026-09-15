@@ -1,5 +1,12 @@
 # Tau Core Scalar-15 and RG Boundary: Technical Paper VII-C
 
+**Morphology convention:** the scalar branch is downstream of a complete
+stabilized morphological response configuration selected from a base carrier
+and its base-readable seed/load pattern. Terminal agreement cannot construct
+that body or turn its atemporal selection into observer time.
+MRC-DEF2 treats parent-side base/seed objects as typed pregeometric relational
+candidates; ordinary matter objects occur downstream of the supplied body.
+
 **Repository kind:** technical paper
 **Status:** class-relative source closure; physical branch occupation open
 
@@ -46,6 +53,16 @@ formed from occupied carrier support, regular local rank four, stable
 quantization and a nonzero record/effect. It is a downstream terminal
 specialization, not an observer-producing channel.
 
+Its upstream typing is now explicit:
+\(\Xi_{OS}^{\mathrm{cont}}\) is the continuous shared descriptor, whereas
+\(D_{OS}^{\mathrm{op}}=Q_{OS,\delta}(\Xi_{OS}^{\mathrm{cont}})\) is the
+finite-resolution operational record. A legacy scalar/RG law descends through
+the new descriptor only when its fibres coarsen the descriptor fibres; equal
+rank is insufficient. The branch also imports \(\Gamma=-H^{-1}B\) and the
+SBTCL106 identity \(\Gamma=J_{OS}\) with zero Schur remainder. These do not
+select the physical vertical source jet, quantizer, calibration, galactic
+\(q_R(R)\), or Nature occupation.
+
 ## AI Startup
 
 Read `.tau-core-kb/COMPACT_CORE.md`, then generate the focused routing pack.
@@ -60,3 +77,14 @@ python .tau-core-kb/scripts/tc_kb.py pack big_picture
 `PD-USS1` and `PD-USS-N1` do not select the scalar-15 source load or force a
 nonzero RG/standard-orthogonal signal. The `0/31` P3 pair census is therefore
 not evidence for this branch and changes none of its conditional RG results.
+
+<!-- BEGIN OBSERVER UPDATE 20260914 -->
+## Observer realization update (2026-09-14)
+
+These results do not select a particle spectrum, coupling constant, Higgs vacuum or gravitational terminal. Common source ancestry remains weaker than physical realization of those sectors.
+
+The manuscript distinguishes inherited BRAC contact, conditional coherent-state
+selection and interacting local covariance from physical observer identification,
+preparation and stable resolution. Those physical claims remain open. No
+empirical score was changed. The [dependency and source-result ledger](data/derived/observer_update_2026_09_14.json) records the assumptions and controls.
+<!-- END OBSERVER UPDATE 20260914 -->

@@ -34,6 +34,9 @@ def test_scope_and_claim_boundary():
         "Equal-upstream RG counterfamily",
         "Exact finite stopping point",
         "unrestricted physical parent",
+        "Imported descriptor-migration and response boundary",
+        "D_{OS}^{\\rm op}=Q_{OS,\\delta}(\\Xi_{OS}^{\\rm cont})",
+        "\\Gamma=-H^{-1}B",
     ]:
         assert marker in text
     assert "predicts the SI value" not in text
