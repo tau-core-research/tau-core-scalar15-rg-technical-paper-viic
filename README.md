@@ -88,3 +88,7 @@ selection and interacting local covariance from physical observer identification
 preparation and stable resolution. Those physical claims remain open. No
 empirical score was changed. The [dependency and source-result ledger](data/derived/observer_update_2026_09_14.json) records the assumptions and controls.
 <!-- END OBSERVER UPDATE 20260914 -->
+
+## Three-pillar closure and postulate-reduction update (2026-11-14)
+
+Technical Paper VII-C (`paperVIIC_submission_source/main.tex` and `closure_and_controls.tex`) incorporates the 14 November 2026 UV and projector-normalcy closure (`U1`, `U2`, `F1`, `F3`, `HOMOG-K4`): extensive `a_UV^{-2}` divergences renormalize `1/(4 G_ren)` symmetrically while intensive ratios `M_*/E_P = 1/sqrt(24 pi)` and `eta_hor = 1` have `0.00e+00` UV drift, `Delta_hat_{K_4} = G_Cl` and `Pi^2 = Pi` close `r_seed = 1/4` without entropic tuning, and local `S_4 x S_4` symmetry enforces `kappa_dir^bare = 0`, isolating scalar-15 branch occupation (`POST-OCC-NU1`) as the clean finite stopping boundary.
